@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="container mx-auto p-6">
+        <h1 class="text-4xl font-bold text-center text-gray-800 mb-12">Project Dashboard</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Project 1 -->
+            <a href="project1.html" class="card bg-white rounded-lg p-6 flex flex-col items-center transition-transform duration-300">
+                <svg class="w-16 h-16 text-blue-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10h6m-6-10h6M3 12h18"></path>
+                </svg>
+                <h2 class="text-xl font-semibold text-gray-700">Project 1</h2>
+                <p class="text-gray-500">HTML Project</p>
+            </a>
+            <!-- Project 2 -->
+            <a href="project2.py" class="card bg-white rounded-lg p-6 flex flex-col items-center transition-transform duration-300">
+                <svg class="w-16 h-16 text-green-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                </svg>
+                <h2 class="text-xl font-semibold text-gray-700">Project 2</h2>
+                <p class="text-gray-500">Python Project</p>
+            </a>
+            <!-- Project 3 -->
+            <a href="project3.html" class="card bg-white rounded-lg p-6 flex flex-col items-center transition-transform duration-300">
+                <svg class="w-16 h-16 text-purple-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 20l9-5-9-5-9 5 9 5zm0-10l9-5-9-5-9 5 9 5z"></path>
+                </svg>
+                <h2 class="text-xl font-semibold text-gray-700">Project 3</h2>
+                <p class="text-gray-500">HTML Project</p>
+            </a>
+            <!-- Project 4 -->
+            <a href="project4.py" class="card bg-white rounded-lg p-6 flex flex-col items-center transition-transform duration-300">
+                <svg class="w-16 h-16 text-red-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7h16M4 12h16M4 17h16"></path>
+                </svg>
+                <h2 class="text-xl font-semibold text-gray-700">Project 4</h2>
+                <p class="text-gray-500">Python Project</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
